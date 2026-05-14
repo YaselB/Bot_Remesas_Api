@@ -1,0 +1,15 @@
+D:\proyectos\BotRemesas_Api\BotRemesas.Application\bin\Debug\net9.0\BotRemesas.Application.deps.json
+D:\proyectos\BotRemesas_Api\BotRemesas.Application\bin\Debug\net9.0\BotRemesas.Application.dll
+D:\proyectos\BotRemesas_Api\BotRemesas.Application\bin\Debug\net9.0\BotRemesas.Application.pdb
+D:\proyectos\BotRemesas_Api\BotRemesas.Application\bin\Debug\net9.0\BotRemesas.Domain.dll
+D:\proyectos\BotRemesas_Api\BotRemesas.Application\bin\Debug\net9.0\BotRemesas.Domain.pdb
+D:\proyectos\BotRemesas_Api\BotRemesas.Application\obj\Debug\net9.0\BotRemesas.Application.csproj.AssemblyReference.cache
+D:\proyectos\BotRemesas_Api\BotRemesas.Application\obj\Debug\net9.0\BotRemesas.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\proyectos\BotRemesas_Api\BotRemesas.Application\obj\Debug\net9.0\BotRemesas.Application.AssemblyInfoInputs.cache
+D:\proyectos\BotRemesas_Api\BotRemesas.Application\obj\Debug\net9.0\BotRemesas.Application.AssemblyInfo.cs
+D:\proyectos\BotRemesas_Api\BotRemesas.Application\obj\Debug\net9.0\BotRemesas.Application.csproj.CoreCompileInputs.cache
+D:\proyectos\BotRemesas_Api\BotRemesas.Application\obj\Debug\net9.0\BotRemes.F3995AB6.Up2Date
+D:\proyectos\BotRemesas_Api\BotRemesas.Application\obj\Debug\net9.0\BotRemesas.Application.dll
+D:\proyectos\BotRemesas_Api\BotRemesas.Application\obj\Debug\net9.0\refint\BotRemesas.Application.dll
+D:\proyectos\BotRemesas_Api\BotRemesas.Application\obj\Debug\net9.0\BotRemesas.Application.pdb
+D:\proyectos\BotRemesas_Api\BotRemesas.Application\obj\Debug\net9.0\ref\BotRemesas.Application.dll

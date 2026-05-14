@@ -1,0 +1,6 @@
+@BotRemesas.Presentation_HostAddress = http://localhost:5147
+
+GET {{BotRemesas.Presentation_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
