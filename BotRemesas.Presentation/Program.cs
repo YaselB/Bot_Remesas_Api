@@ -28,6 +28,7 @@ using (var scope = app.Services.CreateScope())
     await dbContext.Database.MigrateAsync(); // Esto aplica todas las migraciones pendientes
 }
 
+
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
