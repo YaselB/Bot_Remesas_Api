@@ -10,6 +10,7 @@ COPY ["BotRemesas.Infrastructure/BotRemesas.Infrastructure.csproj", "BotRemesas.
 
 RUN dotnet restore "BotRemesas.Presentation/BotRemesas.Presentation.csproj"
 
+
 # Copiar todo el código fuente
 COPY . .
 
