@@ -21,7 +21,7 @@ public static class DependencyInjection
 {
     public static IServiceCollection AddInfrastructure(this IServiceCollection services , IConfiguration configuration)
     {
-        services.AddDbContext<BotRemesasDbContext>(options => options.UseNpgsql(configuration.GetConnectionString("DefaultConnection"), b => b.MigrationsAssembly(typeof(BotRemesasDbContext).Assembly.FullName)));
+        services.AddDbContext<BotRemesasDbContext>(options => options.UseNpgsql("Host=pstgres.railway.internal;Port=5432;Database=railway;Username=postgres;Password=WBnpLAiTBMjkKwgDcVNdHbLnUdiMALly", b => b.MigrationsAssembly(typeof(BotRemesasDbContext).Assembly.FullName)));
         services.AddScoped(typeof(IGenericRepository<>) , typeof(GenericRepository<>));
         services.AddScoped<IAdminRepository , AdminRepository>();
         services.AddScoped<IUserRepository , UserRepository>();
