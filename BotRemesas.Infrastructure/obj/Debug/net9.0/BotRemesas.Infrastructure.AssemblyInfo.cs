@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BotRemesas.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a9db26d3f6c1b1ac02c254c63dd1caba88ec2637")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b446a4806a620ae3bc401831f395109e8bf77438")]
 [assembly: System.Reflection.AssemblyProductAttribute("BotRemesas.Infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BotRemesas.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
