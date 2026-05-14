@@ -17,6 +17,7 @@ builder.Services.AddSwaggerGen();
 
 // Agregar capas de Clean Architecture
 builder.Services.AddApplication();
+Console.WriteLine(builder.Configuration.GetConnectionString("DefaultConnection"));
 builder.Services.AddInfrastructure(builder.Configuration);
 
 
