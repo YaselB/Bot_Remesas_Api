@@ -1,6 +1,8 @@
 using System.Text;
 using BotRemesas.Application.DependencyInjection;
+using BotRemesas.Db;
 using BotRemesas.Infrastructure.DependencyInjection;
+using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -20,6 +22,11 @@ builder.Services.AddInfrastructure(builder.Configuration);
 
 
 var app = builder.Build();
+using (var scope = app.Services.CreateScope())
+{
+    var dbContext = scope.ServiceProvider.GetRequiredService<BotRemesasDbContext>();
+    await dbContext.Database.MigrateAsync(); // Esto aplica todas las migraciones pendientes
+}
 
 if (app.Environment.IsDevelopment())
 {
